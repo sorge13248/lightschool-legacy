@@ -1,0 +1,13 @@
+RewriteOptions inherit
+Options +FollowSymLinks -MultiViews
+RewriteEngine On
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteRule ^([^\.]+)$ $1.php [NC,L]
+
+DirectoryIndex home.php
+ErrorDocument 404 /404.php
+RewriteRule ^download/app /app.php [L]
+RewriteRule ^download/wallpaper /wallpaper.php [L]
+RewriteRule ^download/forms /forms.php [L]
+RewriteRule ^register/schools /register.php?type=schools [L]
+RewriteRule ^register/publishers /register.php?type=publishers [L]

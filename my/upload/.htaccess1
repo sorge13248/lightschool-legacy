@@ -1,0 +1,9 @@
+# secure uploads directory
+<Files ~ ".*\..*">
+  Order Allow,Deny
+  Deny from all
+</Files>
+<FilesMatch "\.(jpg|jpeg|jpe|gif|png|html|htm|doc|docx|xls|xlsx|ppt|pptx|txt|rar)$">
+  Order Deny,Allow
+  Allow from all
+</FilesMatch>

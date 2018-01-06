@@ -1,0 +1,6 @@
+Options +FollowSymLinks
+
+RewriteEngine On
+RewriteRule ^monochromatic/black/security.png monochromatic/black/shield.png
+RewriteRule ^monochromatic/white/security.png monochromatic/white/shield.png
+RewriteRule ^color/security.png color/shield.png

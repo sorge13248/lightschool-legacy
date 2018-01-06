@@ -1,0 +1,18 @@
+RewriteOptions inherit
+Options +FollowSymLinks -MultiViews
+RewriteEngine On
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteRule ^([^\.]+)$ $1.php [NC,L]
+
+DirectoryIndex desktop.php
+RewriteRule ^r/([^/]*)$ read.php?id=$1 [L]
+RewriteRule ^embed/([^/]*)$ embed.php?id=$1 [L]
+RewriteRule ^f/([^/]*)$ files.php?f=$1 [L]
+RewriteRule ^s/([^/]*)$ share_read.php?s=$1 [L]
+RewriteRule ^register/([^/]*)$ register.php?class=$1 [L]
+RewriteRule ^app/word app_word.php [L]
+RewriteRule ^create/test create_test.php [L]
+ErrorDocument 404 /404.php
+
+# block access to home page and redirect to desktop - remove this when home.php is completed
+RewriteRule home.php desktop.php [L]
