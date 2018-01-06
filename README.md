@@ -12,5 +12,4 @@ Most of these features still works and LightSchool is still running at http://ww
 
 Because I don't want to see LightSchool vanishing, I decided to make it open source and give the chance to others to improve and keep it alive.
 
-
-[UPDATING...]
+Please, keep in mind that I was a teenager when I started building it and, besides years of improvement, it is far from being a perfect working project with a clean code.
