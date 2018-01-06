@@ -8,7 +8,7 @@ I got my first working version with databases (MySQL) after a month of testing. 
 
 LightSchool had a lot of features such as: notebooks (a.k.a. word processor), sharing (both with students and teachers), a diary where to schedule homeworks, tests and so on, a timetable management system, istant messaging and a class register.
 
-Most of these features still work and LightSchool is still running at http://www.lightschool.it but I'm no longer improving it and fixing bugs.
+Most of these features still work and LightSchool is still running at https://lightschool.francescosorge.com/ but I'm no longer improving it and fixing bugs.
 
 Because I don't want to see LightSchool vanishing, I decided to make it open source and give the chance to others to improve and keep it alive.
 
