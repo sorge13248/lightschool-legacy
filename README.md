@@ -3,7 +3,7 @@ This is the official GitHub Repository of LightSchool Legacy (the old version of
 This version is not being maintained since 2018. You should not use this version since it's very difficult to get it working and its source code is outdated and will likely be broken on modern browser. Moreover, it has security issues.
 If you're looking to get the brand new version, go here https://github.com/sorge13248/lightschool.
 
-# [LightSchool](https://lightschool.francescosorge.com/ "LightSchool homepage") — Your learning mate
+# [LightSchool](https://lightschool-legacy.francescosorge.com/ "LightSchool homepage") — Your learning mate
 LightSchool is a powerful, customizable and very easy to use web app that aims to provide a great way for improving your student and teacher life.
 
 ## Background ##
@@ -13,14 +13,14 @@ I got my first working version with databases (MySQL) after a month of testing. 
 
 LightSchool had a lot of features such as: notebooks (a.k.a. word processor), sharing (both with students and teachers), a diary where to schedule homeworks, tests and so on, a timetable management system, istant messaging and a class register.
 
-Most of these features still work and LightSchool is still running at https://lightschool.francescosorge.com/ but I'm no longer improving it and fixing bugs.
+Most of these features still work and LightSchool is still running at https://lightschool-legacy.francescosorge.com/ but I'm no longer improving it and fixing bugs.
 
 Because I don't want to see LightSchool vanishing, I decided to make it open source and give the chance to others to improve and keep it alive.
 
 Please, keep in mind that I was a teenager when I started building it and, besides years of improvement, it is far from being a perfect working project with a clean code.
 
 ## Getting started ##
-1. Download the whole project by either downloading it as a ZIP file or by using ```git clone https://github.com/sorge13248/lightschool.git``` in your terminal.
+1. Download the whole project by either downloading it as a ZIP file or by using ```git clone https://github.com/sorge13248/lightschool-legacy.git``` in your terminal.
 2. Open each ```base.php``` or ```System/Core.php``` that you will find in directories and make sure you change every value to match your server settings, URL and MySQL connection credentials.
 3. Import LightSchool's tables structure from ```lightschool.sql``` into your MySQL database.
 4. Have fun!
