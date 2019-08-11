@@ -1,3 +1,8 @@
+# !!! ATTENTION !!!
+This is the official GitHub Repository of LightSchool Legacy (the old version of LightSchool of 2016).
+This version is not being maintained since 2018. You should not use this version since it's very difficult to get it working and its source code is outdated and will likely be broken on modern browser. Moreover, it has security issues.
+If you're looking to get the brand new version, go here https://github.com/sorge13248/lightschool.
+
 # [LightSchool](https://lightschool.francescosorge.com/ "LightSchool homepage") — Your learning mate
 LightSchool is a powerful, customizable and very easy to use web app that aims to provide a great way for improving your student and teacher life.
 
